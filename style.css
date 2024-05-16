@@ -55,17 +55,22 @@ main .container {
     background-color: yellow;
 }
 
-/* fine DEBUG*/
+.card {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
 
-.container.alt {
+/* fine DEBUG*/
+/*section functionality*/
+
+.full {
+    width: 100%;
     background-color: #9792e4;
 }
 
-.card {
-    width: 100%;
+#function .card {
     background-color: #b5ddff;
-    border-radius: 10px;
-    margin-bottom: 1.5rem;
 }
 
 .cont-card {
@@ -95,4 +100,11 @@ main .container {
 
 .cont-card img {
     margin-bottom: -1.5rem;
+}
+
+/*section development*/
+
+#develop .card:last-child {
+    background-color: whitesmoke;
+    margin: auto;
 }
