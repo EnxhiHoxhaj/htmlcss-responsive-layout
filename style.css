@@ -14,8 +14,9 @@
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
+    line-height: 1.7rem;
 }
 
 /*HEADER STYLES*/
@@ -38,15 +39,23 @@ header .container {
 .menu {
     width: 80px;
     height: 40px;
-    background-color: rgb(228, 169, 92);
+    background-color: yellow;
 }
 
 /*MAIN STYLES*/
 /*DEBUG*/
 main .container {
     min-height: 500px;
-
 }
+
+.cont-card img, .icon.top {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background-color: yellow;
+}
+
+/* fine DEBUG*/
 
 .container.alt {
     background-color: #9792e4;
@@ -56,8 +65,34 @@ main .container {
     width: 100%;
     background-color: #b5ddff;
     border-radius: 10px;
-    margin: 1.5rem 0;
-    /*DEBUG*/
-    min-height: 500px;
+    margin-bottom: 1.5rem;
 }
 
+.cont-card {
+    margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    position: relative;
+}
+
+.title-sec {
+    color:#0084fd;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.button {
+    font-size: 18px;
+    color: white;
+    background-color: #0084fd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
+
+.cont-card img {
+    margin-bottom: -1.5rem;
+}
