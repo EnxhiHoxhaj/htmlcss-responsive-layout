@@ -1,7 +1,11 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
-
+/*************************************************
+    background-color:
+                    : #fdc15f; arancione;
+                    : #333333; nero footer
+ *************************************************/
  *{
     margin: 0;
     padding: 0;
@@ -21,6 +25,7 @@ header {
     height: 70px;
     display: flex;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 header .container {
@@ -37,16 +42,22 @@ header .container {
 }
 
 /*MAIN STYLES*/
-
+/*DEBUG*/
 main .container {
-    width: 100%;
-    /*DEBUG*/
     min-height: 500px;
-    border: solid black;
+
 }
 
 .container.alt {
     background-color: #9792e4;
 }
 
+.card {
+    width: 100%;
+    background-color: #b5ddff;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    /*DEBUG*/
+    min-height: 500px;
+}
 
