@@ -1,7 +1,44 @@
-*{
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+/*************************************************
+    background-color:
+                    : #b5ddff; prime card
+                    : #9792e4; sfondo lilla
+                    : #fdc15f; arancione;
+                    : #333333; nero footer
+ *************************************************/
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "PT Sans" ;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/*HEADER STYLES*/
+
+
+header {
+    background-color: #0084fd;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+/*DEBUG*/
+.menu {
+    width: 80px;
+    height: 40px;
+    background-color: tan;
+}
