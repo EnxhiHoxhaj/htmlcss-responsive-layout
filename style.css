@@ -1,13 +1,7 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
-/*************************************************
-    background-color:
-                    : #b5ddff; prime card
-                    : #9792e4; sfondo lilla
-                    : #fdc15f; arancione;
-                    : #333333; nero footer
- *************************************************/
+
  *{
     margin: 0;
     padding: 0;
@@ -16,12 +10,11 @@
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 /*HEADER STYLES*/
-
 
 header {
     background-color: #0084fd;
@@ -40,5 +33,20 @@ header .container {
 .menu {
     width: 80px;
     height: 40px;
-    background-color: tan;
+    background-color: rgb(228, 169, 92);
 }
+
+/*MAIN STYLES*/
+
+main .container {
+    width: 100%;
+    /*DEBUG*/
+    min-height: 500px;
+    border: solid black;
+}
+
+.container.alt {
+    background-color: #9792e4;
+}
+
+
