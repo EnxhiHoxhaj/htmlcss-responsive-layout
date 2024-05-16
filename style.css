@@ -19,6 +19,18 @@
     line-height: 1.7rem;
 }
 
+.card {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.full {
+    width: 100%;
+    background-color: #9792e4;
+    padding: 3rem 0 5rem;
+}
+
 /*HEADER STYLES*/
 
 header {
@@ -55,19 +67,10 @@ main .container {
     background-color: yellow;
 }
 
-.card {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1.5rem;
-}
+
 
 /* fine DEBUG*/
 /*section functionality*/
-
-.full {
-    width: 100%;
-    background-color: #9792e4;
-}
 
 #function .card {
     background-color: #b5ddff;
@@ -107,4 +110,9 @@ main .container {
 #develop .card:last-child {
     background-color: whitesmoke;
     margin: auto;
+}
+
+/*section partners*/
+#partners .lil {
+    background-color: #9792e4;
 }
