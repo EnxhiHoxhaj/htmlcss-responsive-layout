@@ -17,7 +17,7 @@
 .full {
     width: 100%;
     background-color: #9792e4;
-    padding: 1rem 0 3rem;
+    padding: 4rem 0 4rem;
 }
 
 .card {
@@ -41,7 +41,7 @@ img {
     width: 100%;
 }
 
-.buttone {
+.button {
     font-size: 18px;
     color: white;
     border-radius: 25px;
@@ -91,7 +91,7 @@ header .container {
 /*section functionality*/
 
 #function{
-    padding-top: 7rem;
+    padding: 7rem 0 2rem;
 }
 
 #function .card {
@@ -124,6 +124,28 @@ header .container {
 .white {
     background-color: whitesmoke;
     margin: auto;
+    border-radius: 30px;
+}
+
+#develop p {
+    font-weight: lighter;
+}
+
+#develop button {
+    background-color: #9792e4;
+}
+
+#develop h2 {
+    font-size: 1.6rem ;
+    margin-top: 3.5rem
+}
+
+#develop h3 {
+    margin-top: 2.5rem
+}
+
+.col-bk {
+    color: #333333;
 }
 
 /*section partners*/
