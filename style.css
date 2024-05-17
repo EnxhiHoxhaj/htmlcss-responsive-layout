@@ -1,7 +1,7 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,6 +26,46 @@
     margin-bottom: 1.5rem;
 }
 
+.title-sec {
+    font-size: 1.3rem;
+    color:black;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+img {
+    width: 100%;
+}
+
+.buttone {
+    font-size: 18px;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 0;
+    border-style: none;
+}
+
+.start {
+    text-align: start;
+}
+
+.col-blu {
+    color: #0084fd;
+}
+
+.col-whi {
+    color: white;
+}
+
+.col-pur {
+    color: #9792e4;
+}
 /*HEADER STYLES*/
 
 header {
@@ -44,23 +84,15 @@ header .container {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
-
-.col-whi {
-    color: white;
     font-size: 25px;
 }
 
-.cont-card img, .icon.top {
-    width: 80%;
-    height: 200px;
-    margin: auto;
-    background-color: yellow;
-}
-/*************************/
-
 /*MAIN STYLES*/
 /*section functionality*/
+
+#function{
+    padding-top: 7rem;
+}
 
 #function .card {
     background-color: #b5ddff;
@@ -75,26 +107,18 @@ header .container {
     position: relative;
 }
 
-.title-sec {
-    color:#0084fd;
-    text-align: center;
-    margin: 1.5rem 0;
-}
-
-.button {
-    font-size: 18px;
-    color: white;
+.store {
+    padding: 0.5rem 2.7rem;
     background-color: #0084fd;
-    border-radius: 25px;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1.5rem;
 }
 
 .cont-card img {
-    margin-bottom: -1.5rem;
+    margin-bottom: -2rem;
 }
 
+.fa-solid.col-blu {
+    font-size: 4rem;
+}
 /*section development*/
 
 .white {
