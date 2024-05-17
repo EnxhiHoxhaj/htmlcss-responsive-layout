@@ -1,11 +1,6 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
-/*************************************************
-    background-color:
-                    : #fdc15f; arancione;
-                    : #333333; nero footer
- *************************************************/
  *{
     margin: 0;
     padding: 0;
@@ -19,16 +14,16 @@
     line-height: 1.7rem;
 }
 
-.card {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1.5rem;
-}
-
 .full {
     width: 100%;
     background-color: #9792e4;
     padding: 1rem 0 3rem;
+}
+
+.card {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
 }
 
 /*HEADER STYLES*/
@@ -54,22 +49,15 @@ header .container {
     background-color: yellow;
 }
 
-/*MAIN STYLES*/
-/*DEBUG*/
-main .container {
-    min-height: 500px;
-}
-
 .cont-card img, .icon.top {
     width: 80%;
     height: 200px;
     margin: auto;
     background-color: yellow;
 }
+/*************************/
 
-
-
-/* fine DEBUG*/
+/*MAIN STYLES*/
 /*section functionality*/
 
 #function .card {
@@ -115,4 +103,20 @@ main .container {
 /*section partners*/
 #partners .lil {
     background-color: #9792e4;
+}
+
+/*Get Started section*/
+ .orange {
+    color: #fdc15f;
+ }
+
+/*FOOTER STYLE*/
+
+footer {
+    background-color: #333333;
+    width: 100%;
+
+    /*DEBUG*/
+    min-height: 250px;
+
 }
