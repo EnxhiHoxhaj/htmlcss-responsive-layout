@@ -14,10 +14,13 @@
     line-height: 1.7rem;
 }
 
+main .container{
+    padding: 2rem 0 3rem;
+}
+
 .full {
     width: 100%;
     background-color: #9792e4;
-    padding: 4rem 0 4rem;
 }
 
 .card {
@@ -26,11 +29,16 @@
     margin-bottom: 1.5rem;
 }
 
+.title-big {
+    font-size: 1.6rem ;
+    margin: 1.5rem 0;
+}
+
 .title-sec {
     font-size: 1.3rem;
     color:black;
     text-align: center;
-    margin: 1.5rem 0;
+    margin: 1.3rem 0;
 }
 
 p {
@@ -39,6 +47,7 @@ p {
 
 img {
     width: 100%;
+    height: auto;
 }
 
 .button {
@@ -65,6 +74,11 @@ img {
 
 .col-pur {
     color: #9792e4;
+}
+
+.col-bk {
+    color: #333333;
+    font-weight: lighter;
 }
 /*HEADER STYLES*/
 
@@ -108,11 +122,11 @@ header .container {
 }
 
 .store {
-    padding: 0.5rem 2.7rem;
+    padding: 0.7rem 3.5rem;
     background-color: #0084fd;
 }
 
-.cont-card img {
+#function img {
     margin-bottom: -2rem;
 }
 
@@ -120,6 +134,9 @@ header .container {
     font-size: 4rem;
 }
 /*section development*/
+#develop {
+padding-top: 3rem;
+}
 
 .white {
     background-color: whitesmoke;
@@ -127,30 +144,26 @@ header .container {
     border-radius: 30px;
 }
 
-#develop p {
-    font-weight: lighter;
-}
-
 #develop button {
     background-color: #9792e4;
-}
-
-#develop h2 {
-    font-size: 1.6rem ;
-    margin-top: 3.5rem
-}
-
-#develop h3 {
-    margin-top: 2.5rem
-}
-
-.col-bk {
     color: #333333;
 }
 
+#develop .title-big {
+    margin: 4rem 0 2.5rem;
+}
 /*section partners*/
+#partners {
+    padding: 2rem 0 3rem;
+}
 #partners .lil {
     background-color: #9792e4;
+}
+
+.testimonial {
+    margin: 1rem 0;
+    width: 100%;
+    clip-path: circle(39%);
 }
 
 /*Get Started section*/
