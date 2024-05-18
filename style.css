@@ -152,11 +152,10 @@ padding-top: 3rem;
 #develop .title-big {
     margin: 4rem 0 2.5rem;
 }
+
 /*section partners*/
-#partners {
-    padding: 2rem 0 3rem;
-}
-#partners .lil {
+
+.lil {
     background-color: #9792e4;
 }
 
@@ -166,6 +165,14 @@ padding-top: 3rem;
     clip-path: circle(39%);
 }
 
+.feedback p{
+    font-weight: lighter;
+    font-size: 1.1rem;
+    display: inline;
+}
+
+.fa-quote-right, .fa-quote-left {
+}
 /*Get Started section*/
  .orange {
     color: #fdc15f;
