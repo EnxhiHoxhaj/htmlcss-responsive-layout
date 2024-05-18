@@ -197,6 +197,45 @@ padding-top: 3rem;
     font-weight: lighter;
 }
 
+/*About Us*/
+
+#about-us .title-big {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#img-us {
+    width: 12rem;
+    margin-top: 3rem;
+    position: relative;
+}
+
+#img-us img {
+    clip-path: circle(50%);
+}
+
+#img-us .fa-quote-left {
+    font-size: 4rem;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+#about-us h3 {
+    font-size: 1.9rem;
+    line-height: 2.7rem;
+}
+
+#about-us button {
+    background-color: #9792e4;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
 /*Get Started section*/
  .orange {
     color: #fdc15f;
