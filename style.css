@@ -332,7 +332,6 @@ footer {
     #partners img {
         width: 19rem;
         margin: 0 -2rem -1rem -3.5rem;
-
     }
 
     .card.lil .cont-card {
@@ -340,14 +339,23 @@ footer {
         justify-content: space-between;
         position: relative;
         align-items: center;
-
     }
 
     .feedback, .feedback h3{
         text-align: start;
-
     }
     
+    /* STYLE SECTION BENEFITS*/
 
+    #card-benefits {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
 
+    #card-benefits .card {
+        width: calc(100% / 2 - 2rem);
+        margin-bottom: 0;
+    }
 }
