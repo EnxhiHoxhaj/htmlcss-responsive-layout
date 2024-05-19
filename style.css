@@ -208,9 +208,10 @@ padding-top: 3rem;
 
 /*About Us*/
 
+
 #about-us .title-big {
     font-size: 3rem;
-    margin-bottom: 3rem;
+    margin: 3rem 0 3rem;
 }
 
 #img-us {
@@ -355,7 +356,31 @@ footer {
     }
 
     #card-benefits .card {
-        width: calc(100% / 2 - 2rem);
+        width: calc(100% / 2 - 1rem);
         margin-bottom: 0;
+    }
+
+    /* STYLE SECTION ABOUT US*/
+
+    #about-us {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        padding: 0 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #text-about-us{
+        width: calc(50% - 2rem);
+    }
+
+    #image-about-us {
+        width: calc(40% - 2rem);
+    }
+
+    #image-about-us h2 {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
     }
 }
