@@ -478,7 +478,6 @@ footer {
     #develop .cont-card {
         position: absolute;
         bottom: 0;
-
     }
     
     #develop .cont-card img {
@@ -495,7 +494,6 @@ footer {
 
     #benefits .card {
         width: calc(100% / 3 - 2rem);
-
     }
 
     /* STYLE SECTION ABOUT US*/
@@ -519,6 +517,14 @@ footer {
 
     /* STYLE SECTION GET STARTED*/
 
+    #get-started p {
+        width: 40%;
+    }
+
     /* STYLE FOOTER*/
 
+    #footer .card {
+        width: 50%;
+        margin: auto;
+    }
 }
