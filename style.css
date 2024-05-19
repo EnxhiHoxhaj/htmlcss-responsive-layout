@@ -402,4 +402,9 @@ footer {
         margin: auto;
     }
 
+    /* STYLE FOOTER*/
+
+    #footer {
+        width: 40%;
+    }
 }
