@@ -24,7 +24,6 @@ main .container{
 }
 
 .card {
-    width: 100%;
     border-radius: 10px;
     margin-bottom: 1.5rem;
 }
@@ -133,8 +132,12 @@ header .container {
     background-color: #0084fd;
 }
 
+.fa-apple {
+    margin-right: 0.8rem;
+}
+
 #function img {
-    margin-bottom: -2rem;
+    margin-bottom: -0.5rem;
 }
 
 .fa-solid.col-blu {
@@ -271,8 +274,6 @@ padding-top: 3rem;
     margin: 0 0.2rem;
 }
 
-
-
 /*FOOTER STYLE*/
 
 footer {
@@ -283,4 +284,41 @@ footer {
 
 #footer p, #footer a, #footer span {
     font-size: 0.8rem;
+}
+
+/***************
+ LAYOUT TABLET
+****************/
+
+@media screen and (min-width: 569px) and (max-width: 768px) {
+    
+    .container {
+    width: 90%;
+    }
+
+    /* STYLE SECTION FUNCTIONALITY*/
+    
+    #function {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    #function .card {
+        width: calc(100% / 3 - 1rem);
+    }
+
+    #function .card:first-child {
+        width: 64%;
+    }
+    #function img {
+        width: 64%;
+    }
+
+    #function p{
+        font-size: 1rem;
+    }
+
+
+
 }
