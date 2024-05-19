@@ -458,6 +458,33 @@ footer {
     }
     /* STYLE SECTION DEVELOPMENT*/
 
+    #develop {
+        width: 50%;
+        display: flex;
+        gap: 4rem;
+    }
+
+    #develop .card {
+        width: calc(100% / 2 - 4rem);
+        padding-top: 4.5rem;
+        position: relative;
+    }
+
+    #develop .title-big {
+        font-size: 2rem;
+        margin: 5rem 0 1rem;
+    }
+
+    #develop .cont-card {
+        position: absolute;
+        bottom: 0;
+
+    }
+    
+    #develop .cont-card img {
+        width: 65%;
+    }
+
     /* STYLE SECTION PARTNERS*/
     
     /* STYLE SECTION BENEFITS*/
