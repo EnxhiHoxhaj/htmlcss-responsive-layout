@@ -319,6 +319,11 @@ footer {
         font-size: 1rem;
     }
 
+    /* STYLE SECTION DEVELOPMENT*/
 
+    #develop h2 {
+        font-size: 4rem;
+        padding-bottom: 3rem;
+    }
 
 }
