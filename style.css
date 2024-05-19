@@ -500,6 +500,23 @@ footer {
 
     /* STYLE SECTION ABOUT US*/
 
+    #image-about-us h2 {
+        width: 40%;
+        font-size: 1rem;
+    }
+
+    #img-us {
+        width: 40%;
+    }
+
+    #img-us .fa-quote-left {
+        font-size: 2.5rem;
+    }
+
+    #image-about-us .button {
+        font-size: 0.7rem;
+    }
+
     /* STYLE SECTION GET STARTED*/
 
     /* STYLE FOOTER*/
