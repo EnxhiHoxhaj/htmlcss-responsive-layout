@@ -493,6 +493,11 @@ footer {
     
     /* STYLE SECTION BENEFITS*/
 
+    #benefits .card {
+        width: calc(100% / 3 - 2rem);
+
+    }
+
     /* STYLE SECTION ABOUT US*/
 
     /* STYLE SECTION GET STARTED*/
